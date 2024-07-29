@@ -14,7 +14,7 @@ function handleYesClick() {
     if (currentQuestionIndex < questions.length) {
         document.getElementById('question').innerText = questions[currentQuestionIndex];
     } else {
-        document.getElementById('question').innerText = "You've completed the game!";
+        document.getElementById('question').innerText = "Finally ! You love me ";
         document.getElementById('yes-button').style.display = 'none';
         document.getElementById('no-button').style.display = 'none';
     }
